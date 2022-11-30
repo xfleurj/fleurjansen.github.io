@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400&family=Roboto:wght@100;300&display=swap');
+
+body {
+    /* CSS GOES HERE */
+    /* background-color: rgb(113, 142, 178); */
+    /* background-color: peachpuff; */
+    background-color: whitesmoke;
+    /* background-color: #ecae69; */
+    /* background-color: #FFFFFF; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    /* letter-spacing: 1pt; */
+    color: #171717;
+    /* color text */
+    line-height: 1.2;
+    
+    
+}
+
+h1{
+   font-family:'Jost', sans-serif;
+   margin:auto;
+   color:#171717;
+   /* border: 3pt solid black; */
+   padding:10pt;
+   text-align: center;
+   font-size: 40pt;
+   /* Padding = distance between content (blue) and border (purple) */ 
+}
+
+h2{
+    font-family:'Jost', sans-serif;
+    font-weight: 300;
+    color: lightslategray;
+    margin:auto;
+    width:50%;
+    text-align: center;
+    font-size: 20pt;
+    padding:-3pt;
+    /* Padding = distance between content (blue) and border (purple) */ 
+ }
+
+p{
+    width:100%;
+    margin:10pt;
+    /* horizontally aligned on the page */
+    margin-top: 1em ;
+  margin-bottom: 1em ;
+  text-align: justify;
+}
+
+img{
+    width:400pt;
+    margin:0 auto;
+    display:block;
+}
+
+/* styling links */
+a{
+    color: #86a2ac;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #86a2ac;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: whitesmoke;
+    background-color: #86a2ac;
+    text-decoration: none;
+}
+
+.bigger{
+    font-size: 16pt;
+}
+
+.spacingbottom{
+    margin-bottom:20pt;
+}
+
+.spacingtop{
+    margin-top: 20pt;
+}
+
+/* this gets your boxes next to each other */
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width:80%;
+
+}
+
+.center{
+    text-align: center;
+}
+
+.border{
+    border: 5px solid #555;
+}
+
+.alignedleft{
+    text-align: left;
+    margin-left: 20pt;
+}
